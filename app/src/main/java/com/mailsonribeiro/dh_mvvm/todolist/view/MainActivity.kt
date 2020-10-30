@@ -1,7 +1,8 @@
-package com.mailsonribeiro.dh_mvvm
+package com.mailsonribeiro.dh_mvvm.todolist.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.mailsonribeiro.dh_mvvm.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
