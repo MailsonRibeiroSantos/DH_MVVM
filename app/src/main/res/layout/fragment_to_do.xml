@@ -4,19 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".todolist.view.ToDoFragment">
+    tools:context=".todolist.view.ToDoFragment"
+    android:padding="10dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
         android:orientation="vertical">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerToDoList_fragmentToDo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             tools:listitem="@layout/item_tarefa">
 
         </androidx.recyclerview.widget.RecyclerView>
@@ -28,7 +28,5 @@
             android:textAllCaps="false"
             android:text="Adicionar tarefa"/>
     </LinearLayout>
-
-
 
 </FrameLayout>
