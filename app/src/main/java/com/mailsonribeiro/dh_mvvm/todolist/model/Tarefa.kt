@@ -1,3 +1,3 @@
 package com.mailsonribeiro.dh_mvvm.todolist.model
 
-data class Tarefa(private val nome: String)
+data class Tarefa(val nome: String)
